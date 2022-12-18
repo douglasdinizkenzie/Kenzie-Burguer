@@ -11,7 +11,6 @@ export function CartProvider({ children }: iCartProviderProps) {
   const [inputData, setInputData] = useState("");
   const [productsInCart, setProductsInCart] = useState<iProducts[]>([]);
   const [modalCart, setModalCart] = useState(false);
-  console.log(productsInCart);
 
   const productsFiltred = products.filter((elemFilter) => {
     return elemFilter.name

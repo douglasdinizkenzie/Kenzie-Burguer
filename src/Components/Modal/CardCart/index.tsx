@@ -7,7 +7,6 @@ import { iProducts } from "../../../context/CartContext/types";
 
 export function CardCart({ elem }: iElem) {
   const { setProductsInCart, productsInCart } = useContext(CartContext);
-  console.log(elem);
 
   function removeItem(item: iProducts) {
     let filtredProducts = productsInCart.filter(

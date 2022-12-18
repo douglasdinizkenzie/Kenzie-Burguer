@@ -12,7 +12,7 @@ export function Modal() {
     0
   );
   let newTotal = total.toFixed(2).toString().replace(".", ",");
-  console.log(productsInCart);
+
   const modalRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
